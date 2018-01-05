@@ -1,0 +1,641 @@
+:root {
+  border-color: red; }
+
+input[type="checkbox"] {
+  display: none; }
+
+.checkmark {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #d9d9d9;
+  background: #BF55EC;
+  border-radius: 5px; }
+  .checkmark:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    display: none;
+    color: white;
+    top: -5px; }
+  .checkmark:before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    color: white;
+    top: -3px;
+    left: 1px; }
+  .checked:checked ~ .checkmark:after {
+    display: block; }
+  .checked:checked ~ .checkmark:before {
+    display: none; }
+
+.checkmarkdos {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #d9d9d9;
+  background: #F7CA18;
+  border-radius: 5px; }
+  .checkmarkdos:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    display: none;
+    color: white;
+    top: -5px; }
+  .checkmarkdos:before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    color: white;
+    top: -3px;
+    left: 1px; }
+  .checked-dos:checked ~ .checkmarkdos:after {
+    display: block; }
+  .checked-dos:checked ~ .checkmarkdos:before {
+    display: none; }
+
+.checkmarktres {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #d9d9d9;
+  background: #1BBC9B;
+  border-radius: 5px; }
+  .checkmarktres:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    display: none;
+    color: white;
+    top: -5px; }
+  .checkmarktres:before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    color: white;
+    top: -3px;
+    left: 1px; }
+  .checked-tres:checked ~ .checkmarktres:after {
+    display: block; }
+  .checked-tres:checked ~ .checkmarktres:before {
+    display: none; }
+
+.checkmarkcuatro {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #d9d9d9;
+  background: #22A7F0;
+  border-radius: 5px; }
+  .checkmarkcuatro:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    display: none;
+    color: white;
+    top: -5px; }
+  .checkmarkcuatro:before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    color: white;
+    top: -3px;
+    left: 1px; }
+  .checked-cuatro:checked ~ .checkmarkcuatro:after {
+    display: block; }
+  .checked-cuatro:checked ~ .checkmarkcuatro:before {
+    display: none; }
+
+.checkmarkcinco {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #d9d9d9;
+  background: #F22613;
+  border-radius: 5px; }
+  .checkmarkcinco:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    display: none;
+    color: white;
+    top: -5px; }
+  .checkmarkcinco:before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    color: white;
+    top: -3px;
+    left: 1px; }
+  .checked-cinco:checked ~ .checkmarkcinco:after {
+    display: block; }
+  .checked-cinco:checked ~ .checkmarkcinco:before {
+    display: none; }
+
+.checkmarkseis {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #d9d9d9;
+  background: #F9690E;
+  border-radius: 5px; }
+  .checkmarkseis:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    display: none;
+    color: white;
+    top: -5px; }
+  .checkmarkseis:before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    color: white;
+    top: -3px;
+    left: 1px; }
+  .checked-seis:checked ~ .checkmarkseis:after {
+    display: block; }
+  .checked-seis:checked ~ .checkmarkseis:before {
+    display: none; }
+
+/* comentarios */
+.checked-1 {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #BF55EC;
+  border-radius: 5px; }
+  .checked-1:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    visibility: hidden;
+    color: white;
+    top: -5px; }
+  .check-1:checked ~ .checked-1:after {
+    visibility: visible; }
+
+.checked-2 {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #F7CA18;
+  border-radius: 5px; }
+  .checked-2:after {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    visibility: hidden;
+    color: white;
+    top: -5px; }
+  .check-2:checked ~ .checked-2:after {
+    visibility: visible; }
+
+.checked-3 {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #1BBC9B;
+  border-radius: 5px; }
+  .checked-3:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    visibility: hidden;
+    color: white;
+    top: -5px; }
+  .check-3:checked ~ .checked-3:after {
+    visibility: visible; }
+
+.checked-4 {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #22A7F0;
+  border-radius: 5px; }
+  .checked-4:after {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    visibility: hidden;
+    color: white;
+    top: -5px; }
+  .check-4:checked ~ .checked-4:after {
+    visibility: visible; }
+
+.checked-5 {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #F22613;
+  border-radius: 5px; }
+  .checked-5:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    visibility: hidden;
+    color: white;
+    top: -5px; }
+  .check-5:checked ~ .checked-5:after {
+    visibility: visible; }
+
+.checked-6 {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #F9690E;
+  border-radius: 5px; }
+  .checked-6:after {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    visibility: hidden;
+    color: white;
+    top: -5px; }
+  .check-6:checked ~ .checked-6:after {
+    visibility: visible; }
+
+.check-pill-1 {
+  width: 1em;
+  height: 1em;
+  border: 2px solid #bf55ec;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #fff;
+  border-width: 2px solid #bf55ec;
+  border-radius: 5px; }
+  .check-pill-1:hover {
+    background: rgba(208, 131, 241, 0.2); }
+  .check-pill-1:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 1.2em;
+    font-weight: normal;
+    position: relative;
+    display: none;
+    color: #bf55ec;
+    top: -5px; }
+  .check-pill-1:before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 1.2em;
+    font-weight: normal;
+    position: relative;
+    color: #bf55ec;
+    top: -4px; }
+  .check-pill-1:checked ~ .check-pill-1:after {
+    display: block; }
+  .check-pill-1:checked ~ .check-pill-1:before {
+    display: none; }
+
+.check-pill-2 {
+  width: 1em;
+  height: 1em;
+  border: 2px solid #f22613;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #fff;
+  border-width: 2px solid #f22613;
+  border-radius: 5px; }
+  .check-pill-2:hover {
+    background: rgba(245, 82, 67, 0.2); }
+  .check-pill-2:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 1.2em;
+    font-weight: normal;
+    position: relative;
+    display: none;
+    color: #f22613;
+    top: -5px; }
+  .check-pill-2:before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 1.2em;
+    font-weight: normal;
+    position: relative;
+    color: #f22613;
+    top: -4px; }
+  .check-pill-2:checked ~ .check-pill-2:after {
+    display: block; }
+  .check-pill-2:checked ~ .check-pill-2:before {
+    display: none; }
+
+.check-pill-3 {
+  width: 1.3em;
+  height: 1.3em;
+  border: 2px solid #f7ca18;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #fff;
+  border-width: 2px solid #f7ca18;
+  border-radius: 5px; }
+  .check-pill-3:hover {
+    background: rgba(249, 213, 73, 0.2); }
+  .check-pill-3:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    display: none;
+    color: #f7ca18;
+    top: -5px; }
+  .check-pill-3:before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    color: #f7ca18;
+    top: -4px; }
+  .check-pill-3:checked ~ .check-pill-3:after {
+    display: block; }
+  .check-pill-3:checked ~ .check-pill-3:before {
+    display: none; }
+
+.check-pill-4 {
+  width: 1.1em;
+  height: 1.1em;
+  border: 2px solid #e87e04;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #fff;
+  border-width: 2px solid #e87e04;
+  border-radius: 5px; }
+  .check-pill-4:hover {
+    background: rgba(251, 151, 36, 0.2); }
+  .check-pill-4:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 1.3em;
+    font-weight: normal;
+    position: relative;
+    display: none;
+    color: #e87e04;
+    top: -5px; }
+  .check-pill-4:before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 1.3em;
+    font-weight: normal;
+    position: relative;
+    color: #e87e04;
+    top: -4px; }
+  .check-pill-4:checked ~ .check-pill-4:after {
+    display: block; }
+  .check-pill-4:checked ~ .check-pill-4:before {
+    display: none; }
+
+.check-pill-5 {
+  width: 1.3em;
+  height: 1.3em;
+  border: 2px solid #1bbc9b;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #fff;
+  border-width: 2px solid #1bbc9b;
+  border-radius: 5px; }
+  .check-pill-5:hover {
+    background: rgba(42, 224, 187, 0.2); }
+  .check-pill-5:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    display: none;
+    color: #1bbc9b;
+    top: -5px; }
+  .check-pill-5:before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: relative;
+    color: #1bbc9b;
+    top: -4px; }
+  .check-pill-5:checked ~ .check-pill-5:after {
+    display: block; }
+  .check-pill-5:checked ~ .check-pill-5:before {
+    display: none; }
+
+input[type="radio"] {
+  display: none; }
+
+.radio-check {
+  width: 1em;
+  height: 1em;
+  min-width: 0.8em;
+  background: #fff;
+  margin-top: 0;
+  display: inline-block;
+  border: 2px solid #bf55ec;
+  border-radius: 100%;
+  padding: 0.2em; }
+  .radio-check:before {
+    content: '\f111';
+    font-family: FontAwesome;
+    font-size: 1em;
+    color: rgba(191, 85, 236, 0.7);
+    position: relative;
+    top: -2px;
+    left: 2px;
+    visibility: hidden;
+    margin: 0 auto; }
+  .radio:checked ~ .radio-check:before {
+    visibility: visible; }
+
+.radio-check-2 {
+  width: 1.2em;
+  height: 1.2em;
+  min-width: 0.8em;
+  background: #fff;
+  margin-top: 0;
+  display: inline-block;
+  border: 2px solid #f22613;
+  border-radius: 100%;
+  padding: 0.2em; }
+  .radio-check-2:before {
+    content: '\f111';
+    font-family: FontAwesome;
+    font-size: 1.2em;
+    color: rgba(242, 38, 19, 0.7);
+    position: relative;
+    top: -2px;
+    left: 2px;
+    visibility: hidden;
+    margin: 0 auto; }
+  .radio-2:checked ~ .radio-check-2:before {
+    visibility: visible; }
+
+.radio-check-3 {
+  width: 1em;
+  height: 1em;
+  min-width: 0.8em;
+  background: #fff;
+  margin-top: 0;
+  display: inline-block;
+  border: 2px solid #f7ca18;
+  border-radius: 100%;
+  padding: 0.2em; }
+  .radio-check-3:before {
+    content: '\f111';
+    font-family: FontAwesome;
+    font-size: 1em;
+    color: rgba(247, 202, 24, 0.7);
+    position: relative;
+    top: -2px;
+    left: 2px;
+    visibility: hidden;
+    margin: 0 auto; }
+  .radio-3:checked ~ .radio-check-3:before {
+    visibility: visible; }
+
+.radio-check-4 {
+  width: 1.2em;
+  height: 1.2em;
+  min-width: 0.8em;
+  background: #fff;
+  margin-top: 0;
+  display: inline-block;
+  border: 2px solid #e87e04;
+  border-radius: 100%;
+  padding: 0.2em; }
+  .radio-check-4:before {
+    content: '\f111';
+    font-family: FontAwesome;
+    font-size: 1.2em;
+    color: rgba(232, 126, 4, 0.7);
+    position: relative;
+    top: -2px;
+    left: 2px;
+    visibility: hidden;
+    margin: 0 auto; }
+  .radio-4:checked ~ .radio-check-4:before {
+    visibility: visible; }
+
+.radio-check-5 {
+  width: 1.3em;
+  height: 1.3em;
+  min-width: 0.8em;
+  background: #fff;
+  margin-top: 0;
+  display: inline-block;
+  border: 2px solid #1bbc9b;
+  border-radius: 100%;
+  padding: 0.2em; }
+  .radio-check-5:before {
+    content: '\f111';
+    font-family: FontAwesome;
+    font-size: 1.3em;
+    color: rgba(27, 188, 155, 0.7);
+    position: relative;
+    top: -2px;
+    left: 2px;
+    visibility: hidden;
+    margin: 0 auto; }
+  .radio-5:checked ~ .radio-check-5:before {
+    visibility: visible; }
+
