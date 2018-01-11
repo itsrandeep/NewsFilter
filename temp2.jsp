@@ -54,7 +54,7 @@ img.center {
      f++;
    }
 for(int re=0;re<f;re++){
-    URL url=new URL("https://newsapi.org/v1/articles?source="+ URLEncoder.encode(searchQuery[re], "UTF-8")+"&sortBy=top&apiKey=43e0f95189d54526bf404b41d547687a");
+    URL url=new URL("https://newsapi.org/v1/articles?source="+ URLEncoder.encode(searchQuery[re], "UTF-8")+"&sortBy=top&apiKey=YOUR_API_KEY");
     URLConnection urlcon=url.openConnection();
     InputStream stream=urlcon.getInputStream();
     int i;
