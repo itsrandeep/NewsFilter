@@ -25,7 +25,7 @@
    Random rand = new Random();
 
    int  n = rand.nextInt(13) + 0;
-   URL url=new URL("https://newsapi.org/v1/articles?source="+newssource[n]+"&sortBy=top&apiKey=43e0f95189d54526bf404b41d547687a");
+   URL url=new URL("https://newsapi.org/v1/articles?source="+newssource[n]+"&sortBy=top&apiKey=YOUR_API_KEY");
    URLConnection urlcon=url.openConnection();
 	 InputStream stream=urlcon.getInputStream();
 	 int i;
