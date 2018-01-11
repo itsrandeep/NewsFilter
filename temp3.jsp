@@ -49,7 +49,7 @@
      f++;
    }
 for(int re=0;re<f;re++){
-    URL url=new URL("https://newsapi.org/v2/everything?q="+URLEncoder.encode(searchQuery[re], "UTF-8")+"&apiKey=43e0f95189d54526bf404b41d547687a");
+    URL url=new URL("https://newsapi.org/v2/everything?q="+URLEncoder.encode(searchQuery[re], "UTF-8")+"&apiKey=YOUR_API_KEY");
 
     URLConnection urlcon=url.openConnection();
     InputStream stream=urlcon.getInputStream();
